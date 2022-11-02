@@ -1,5 +1,5 @@
 import * as React from 'react';
-import { View, Text, Image, TouchableOpacity, ImageBackground, StyleSheet} from 'react-native';
+import { View, Text, TouchableOpacity, ImageBackground, StyleSheet} from 'react-native';
 
 const imageProduct1 = require('../images/femaleProduct1.png')
 const imageProduct2 = require('../images/femaleProduct2.png')
@@ -12,7 +12,7 @@ const imageProduct8 = require('../images/femaleProduct8.png')
 
 
 
-function whiteClothe({ navigation }) {
+function whiteClothe() {
     return (
         <View style={{ width: '100%', height: '100%', alignItems: 'center' }}>
 
@@ -75,7 +75,7 @@ function whiteClothe({ navigation }) {
     )
 }
 
-function floweryDress({ navigation }) {
+function floweryDress() {
 
     return (
         <View style={{ width: '100%', height: '100%', alignItems: 'center' }}>
@@ -140,7 +140,7 @@ function floweryDress({ navigation }) {
     )
 };
 
-function shoesColorS({ navigation }) {
+function shoesColorS() {
 
     return (
         <View style={{ width: '100%', height: '100%', alignItems: 'center' }}>
@@ -205,7 +205,7 @@ function shoesColorS({ navigation }) {
     )
 };
 
-function shoesPink({ navigation }) {
+function shoesPink() {
 
     return (
         <View style={{ width: '100%', height: '100%', alignItems: 'center' }}>
@@ -270,7 +270,7 @@ function shoesPink({ navigation }) {
     )
 };
 
-function blackDress({ navigation }) {
+function blackDress() {
 
     return (
         <View style={{ width: '100%', height: '100%', alignItems: 'center' }}>
@@ -335,7 +335,7 @@ function blackDress({ navigation }) {
     )
 };
 
-function vintageBag({ navigation }) {
+function vintageBag() {
 
     return (
         <View style={{ width: '100%', height: '100%', alignItems: 'center' }}>
@@ -400,7 +400,7 @@ function vintageBag({ navigation }) {
     )
 };
 
-function redHotBag({ navigation }) {
+function redHotBag() {
 
     return (
         <View style={{ width: '100%', height: '100%', alignItems: 'center' }}>
@@ -465,7 +465,7 @@ function redHotBag({ navigation }) {
     )
 };
 
-function highHeels({ navigation }) {
+function highHeels() {
 
     return (
         <View style={{ width: '100%', height: '100%', alignItems: 'center' }}>

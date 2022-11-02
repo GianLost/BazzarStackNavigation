@@ -1,5 +1,5 @@
 import * as React from 'react';
-import { View, Text, Image, TouchableOpacity, ImageBackground, StyleSheet } from 'react-native';
+import { View, Text, TouchableOpacity, ImageBackground, StyleSheet } from 'react-native';
 
 const imageProduct1 = require('../images/maleProduct1.png')
 const imageProduct2 = require('../images/maleProduct2.png')
@@ -12,7 +12,7 @@ const imageProduct8 = require('../images/maleProduct8.png')
 
 
 
-function whiteClotheThin({ navigation }) {
+function whiteClotheThin() {
     return (
         <View style={{ width: '100%', height: '100%', alignItems: 'center' }}>
 
@@ -75,7 +75,7 @@ function whiteClotheThin({ navigation }) {
     )
 }
 
-function sweatshirtYllw({ navigation }) {
+function sweatshirtYllw() {
 
     return (
         <View style={{ width: '100%', height: '100%', alignItems: 'center' }}>
@@ -140,7 +140,7 @@ function sweatshirtYllw({ navigation }) {
     )
 };
 
-function shoesRed({ navigation }) {
+function shoesRed() {
 
     return (
         <View style={{ width: '100%', height: '100%', alignItems: 'center' }}>
@@ -205,7 +205,7 @@ function shoesRed({ navigation }) {
     )
 };
 
-function shoesRnB({ navigation }) {
+function shoesRnB() {
 
     return (
         <View style={{ width: '100%', height: '100%', alignItems: 'center' }}>
@@ -270,7 +270,7 @@ function shoesRnB({ navigation }) {
     )
 };
 
-function brownClotheThin({ navigation }) {
+function brownClotheThin() {
 
     return (
         <View style={{ width: '100%', height: '100%', alignItems: 'center' }}>
@@ -335,7 +335,7 @@ function brownClotheThin({ navigation }) {
     )
 };
 
-function socialClothe({ navigation }) {
+function socialClothe() {
 
     return (
         <View style={{ width: '100%', height: '100%', alignItems: 'center' }}>
@@ -400,7 +400,7 @@ function socialClothe({ navigation }) {
     )
 };
 
-function shoesGrey({ navigation }) {
+function shoesGrey() {
 
     return (
         <View style={{ width: '100%', height: '100%', alignItems: 'center' }}>
@@ -465,7 +465,7 @@ function shoesGrey({ navigation }) {
     )
 };
 
-function bootHardWay({ navigation }) {
+function bootHardWay() {
 
     return (
         <View style={{ width: '100%', height: '100%', alignItems: 'center' }}>
